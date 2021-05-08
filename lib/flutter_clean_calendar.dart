@@ -71,7 +71,7 @@ class Calendar extends StatefulWidget {
 }
 
 class _CalendarState extends State<Calendar> {
-  final calendarUtils = utils.DateUtils();
+  //final calendarUtils = utils.DateUtils();
   List<DateTime> selectedMonthsDays;
   Iterable<DateTime> selectedWeekDays;
   DateTime _selectedDate = DateTime.now();
